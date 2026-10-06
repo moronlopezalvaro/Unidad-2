@@ -1,3 +1,5 @@
+## Tarea 1
+
 | Identificador | Predicción | Justificación |
 |--------------|--------------|--------------|
 | **Log A** | Undefined | La variable declarada con var se eleva (Hoisting) y se inicializa con el valor por defecto "undefined", que es el que se devuelve al ser el que se guarda en memoria, dado que el log que la llama se ejecuta antes de que se declare y asigne un valor. |
@@ -6,3 +8,7 @@
 | **Log D** | Valor de la variable descuento ("10") | Se muestra el valor de la variable descuento, que es 10 porque al ser declarada con var dentro de la función pero fuera del condicional, al ejecutarse el log en la propia función muestra el valor asignado dentro de ella (ámbito de función). |
 | **Log E** | Error | Se ejecuta el log en un if, pero como su variable es una constante declarada en otro bloque if (donde no está anidado el del log), se produce el error, dado que las constantes tienen ámbitos de bloque y no pueden ser llamadas fuera del mismo (el if anterior donde se declaró). Al capturarse el error se imprime el mensaje "¡ERROR CATÁSTROFICO!". |
 | **Log F** | Error | Se ejecuta el log antes de declararse la variable. Al ser declarada con let no se ha elevado, produciéndose error al intentar acceder a una variable antes de ser declarada. Al capturarse el error se imprime el mensaje "¡ERROR CATÁSTROFICO!". |
+
+## Tarea 2
+
+![](/actividad_2_3/CapturaDevTools.png)
