@@ -1,8 +1,10 @@
 # Ejercicio 1: Variable inexistente
 El error está a la hora de llamar a la variable "result" que se llama erróneamente con "reslt". Es un error tipográfico.
-![](/capturas/ejercicio1.png)
+![](/actividad_2_7/capturas/ejercicio1.png)
 
 # Ejercicio 2: Comparaciones sospechosas
+El error está en la condición del if porque al comparar la edad de la variable se utiliza la expresión "=>", que es una función flecha en vez de un comparador, tendría que ser ">=". Es un error lógico.
+![](/actividad_2_7/capturas/ejercicio2.png)
 
 # Ejercicio 3: Return of the Jedi
 
