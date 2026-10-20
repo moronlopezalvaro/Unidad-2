@@ -7,6 +7,8 @@ El error está en la condición del if porque al comparar la edad de la variable
 ![](/actividad_2_7/capturas/ejercicio2.png)
 
 # Ejercicio 3: Return of the Jedi
+El error está en que la función multiplicar no devuelve nada por tener el "return" comentado, si se descomenta la función debería devolver el resultado de la operación. Es un error lógico.
+![](/actividad_2_7/capturas/ejercicio3.png)
 
 # Ejercicio 4: Names, names...
 
