@@ -15,6 +15,8 @@ El error está en  que se intenta usar la variable "name" cuando el parámetro d
 ![](/actividad_2_7/capturas/ejercicio4.png)
 
 # Ejercicio 5: Out of control
+El error está en la condición del bucle for, que usa "<=" en vez de "<". Por eso el bucle da una vuelta de más e intenta sumar una posición del array que no existe. Es un error lógico.
+![](/actividad_2_7/capturas/ejercicio5.png)
 
 # Ejercicio 6: Usando expresiones
 
