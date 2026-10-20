@@ -19,8 +19,12 @@ El error está en la condición del bucle for, que usa "<=" en vez de "<". Por e
 ![](/actividad_2_7/capturas/ejercicio5.png)
 
 # Ejercicio 6: Usando expresiones
+El error está en el if, que usa "=" (asignación) en vez de "===" (comparación). Como no se puede asignar un valor a "num % 2", el programa ni siquiera llega a ejecutarse. Es un error sintáctico.
+![](/actividad_2_7/capturas/ejercicio6.png)
 
 # Ejercicio 7: Callback defectuoso
+El error está en la llamada al callback, ya que se le pasa la variable "dat" cuando el parámetro de la función se llama "datos", por lo que "dat" no está definida. Es un error de referencia.
+![](/actividad_2_7/capturas/ejercicio7.png)
 
 # Ejercicio 8: Evento click sospechoso (HTML + JS)
 
