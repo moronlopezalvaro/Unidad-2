@@ -27,5 +27,7 @@ El error está en la llamada al callback, ya que se le pasa la variable "dat" cu
 ![](/actividad_2_7/capturas/ejercicio7.png)
 
 # Ejercicio 8: Evento click sospechoso (HTML + JS)
+El error está en el console.log dentro del evento click ya que se intenta mostrar la variable "msj" cuando la variable declarada se llama "msg". El error solo aparece al pulsar el botón que es cuando se ejecuta la función. Es un error de referencia.
+![](/actividad_2_7/capturas/ejercicio8.png)
 
 # Ejercicio 9: Cálculo misterioso
