@@ -1,5 +1,5 @@
 # Ejercicio 1: Variable inexistente
-El error está a la hora de llamar a la variable "result" que se llama erróneamente con "reslt". Es un error tipográfico.
+El error está a la hora de llamar a la variable "result" que se llama erróneamente con "reslt". Es un error de referencia.
 ![](/actividad_2_7/capturas/ejercicio1.png)
 
 # Ejercicio 2: Comparaciones sospechosas
@@ -11,6 +11,8 @@ El error está en que la función multiplicar no devuelve nada por tener el "ret
 ![](/actividad_2_7/capturas/ejercicio3.png)
 
 # Ejercicio 4: Names, names...
+El error está en  que se intenta usar la variable "name" cuando el parámetro de la función se llama "nombre", por lo que "name" no está definida. Es un error de referencia.
+![](/actividad_2_7/capturas/ejercicio4.png)
 
 # Ejercicio 5: Out of control
 

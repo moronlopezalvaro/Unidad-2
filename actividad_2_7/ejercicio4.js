@@ -1,5 +1,5 @@
 function saludar(nombre) {
-    console.log("Hola " + name);
+    console.log("Hola " + nombre);
 }
  
 saludar("Ana");
